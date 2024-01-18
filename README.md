@@ -1,3 +1,5 @@
+<img src="https://res.cloudinary.com/dbjrx698c/image/upload/v1704611347/logo_w4vxp0.png" width="100" height="100" style="display: block; margin: 0 auto;">
+
 # react-s3-typescript
 
 A npm package to upload your files into AWS S3 Bucket directly using react with aws sdk version 3. If you are looking for NodeJS version try this- <a href="https://www.npmjs.com/package/nodejs-s3-typescript">NodeJS S3 Typescript</a>
