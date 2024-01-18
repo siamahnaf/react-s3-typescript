@@ -1,6 +1,6 @@
 # react-s3-typescript
 
-A npm package to upload your files into AWS S3 Bucket directly using react with aws sdk version 3.
+A npm package to upload your files into AWS S3 Bucket directly using react with aws sdk version 3. If you are looking for NodeJS version try this- <a href="https://www.npmjs.com/package/nodejs-s3-typescript">NodeJS S3 Typescript</a>
 
 ## Aws SDK Version 3
 
@@ -55,7 +55,7 @@ You can define a default directory for uploads using the s3Config object
 ```typescript
     /* AWS S3 Client */
     /* uploadFile.ts */
-    import ReactS3Client from 'react-s3-typescript';
+    import { ReactS3Client } from 'react-s3-typescript';
     import { s3Config } from './s3Config.ts';
 
     const uploadFile = async () => {
@@ -89,7 +89,7 @@ You can define a default directory for uploads using the s3Config object
 ```typescript
     /* AWS S3 Client */
     /* deleteFile.ts */
-    import ReactS3Client from 'react-aws-s3-typescript';
+    import { ReactS3Client } from 'react-aws-s3-typescript';
     import { s3Config } from './s3Config.ts';
 
     const deleteFile = async () => {
